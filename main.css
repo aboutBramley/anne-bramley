@@ -1,0 +1,419 @@
+
+body{
+	background-color: #fff;
+	font-size: 25px;
+}
+
+h1,h2,h3{
+	font-family: 'Merriweather', 'PT Serif', serif;
+	font-family: @import url(https://fonts.googleapis.com/css?family=Merriweather:300);
+}
+
+h1{
+	
+	font-size: 1.3em;
+	color: #19334d;
+	padding: 0.5em;
+}
+
+h2{
+	font-size: 1.1em;
+	line-height: 1em;
+	color: #19334d;
+}
+h3{
+	font-size: 1.0em;
+	font-style: italic;
+	color: #19334d;
+	font-weight: 800;
+}
+p{
+	font-family: 'Open Sans', sans-serif;
+	font-family: @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+	font-size: .6em;
+	line-height: 1.1em;
+	color: #19334d;
+}
+
+#wrapper{
+margin: 0 auto;
+width: 100%;
+}
+
+header{
+	color: #fff;
+	font-family: 'Merriweather', 'PT Serif', serif;
+	font-family: @import url(https://fonts.googleapis.com/css?family=Merriweather:300);
+	font-size: 1.6em;
+	text-align: center;
+	font-style: italic;	
+	line-height: 3.5em;
+}
+
+#slogan{
+	background-image: url("https://speckyboy.com/wp-content/uploads/2008/06/06.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 200px;
+	background-color: #f2f2f2;
+	margin: 0 auto;
+}
+
+nav{
+background-color: #f2f2f2;
+color: #19334d;
+font-family: 'PT Serif', serif;
+font-family: @import url(https://fonts.googleapis.com/css?family=PT+Serif:400italic);
+line-height: 1em;
+margin: 0 auto;
+width: 100%;
+}
+#logo{
+	font-family: 'Pacifico', cursive;
+	font-family: @import url(https://fonts.googleapis.com/css?family=Pacifico);	
+	color: #19334d;
+	font-size: .9em;
+	border: 0 40px;
+	font-weight: 600;
+	padding: 0;
+	float: left;
+	padding-left: 5%;
+	padding-top: 1%;
+}
+
+.nav_header{font-family: 'PT Serif', serif;
+	font-family: @import url(https://fonts.googleapis.com/css?family=PT+Serif:400italic);
+	line-height: 1em;
+	color: #19334d;
+	font-size: 18px;
+	display: block;
+	text-decoration: none;
+	float: right;
+	padding: 20px;
+	background-color: #f2f2f2;	
+}
+.nav_aside{
+	font-family: 'PT Serif', serif;
+	font-family: @import url(https://fonts.googleapis.com/css?family=PT+Serif:400italic);
+	line-height: 2.3em;
+	color: #009900;
+	font-size: 18px;
+	display: block;
+	text-decoration: none;
+	padding: 5px 3px ;
+	background-color: #f2f2f2;
+}
+
+a:hover{
+	background-color: #19334d;
+	color: #fff;
+}
+
+.clearfix:after{
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
+
+footer{
+	margin: 0 auto;
+	text-align: right;
+	clear: both;
+	background-color: #333333;
+	color: #fff;
+	font-family: 'PT Serif', serif;
+	font-family: @import url(https://fonts.googleapis.com/css?family=PT+Serif:400italic);
+	line-height: 1em;
+	padding: 10px;
+	font-size: .5em;
+}
+div{
+	display: block;
+}
+
+ul{
+	background-color: #f2f2f2;
+	text-decoration: none;
+	
+
+}
+li{
+	
+	line-height: 1.1em;
+	font-size: .6em;
+	font-family: 'Open Sans', sans-serif;
+	font-family: @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+	color: #19334d;
+}
+
+#main{
+	width: 100%;
+	display: inline-block;
+	float: left;
+	margin: 0 auto;
+	background-color: #f2f2f2;
+
+}
+#column1,#column2,#column3{
+display: inline-block;
+float: left;
+text-align: center;	
+}
+
+#column1{
+background-color: #fff;
+color: #19334d;
+padding: .2em .3em;
+margin-left: 5%;
+margin-right: 2.5%;
+margin-top: 1%;
+margin-bottom: 1%;
+width: 22%;
+border: solid 5px #19334d;
+}
+
+a#cv{
+color: #19334d;
+font-size: 1em;
+}	
+
+#cv:hover{
+	background-color: #19334d;
+	color: #fff;
+	text-decoration: none;
+}
+
+#column2{
+background-color: #fff;
+color: #19334d;
+width: 28%;
+margin-left: 2.5%;
+margin-right: 2.5%;
+margin-top: 1%;
+margin-bottom: 1%;
+padding: .2em .3em;
+border: solid 5px #19334d;
+}
+
+a#writing{
+	color: #19334d;
+	font-size: 1em;
+}
+
+#writing:hover{
+	background-color: #19334d;
+	color: #fff;
+	text-decoration: none;
+}
+
+#pdfIcon{
+	border:none;
+	width: 32px;
+	height: 32.25px;
+	vertical-align: middle;
+}
+
+#column3{
+background-color: #fff;
+color: #19334d;
+text-decoration: none;
+width: 22%;
+margin-left: 2.5%;
+margin-right: 5%;
+margin-top: 1%;
+margin-bottom: 1%;
+padding: .2em .3em;
+border: solid 5px #19334d;
+}	
+
+a#books{
+	color: #19334d;
+	font-size: 1em;
+}
+#books:hover{
+	background-color: #19334d;
+	color: #fff;
+	text-decoration: none;
+}
+article,aside{
+background-color: #f2f2f2;
+display: inline-block;
+float: left;
+width: 100%;
+margin: 0 auto;
+font-size: .8em;
+line-height: .8em;
+}
+
+
+.farming_text{
+background-color: #fff;
+color: #19334d;
+margin: .6em auto;
+padding: .6em;
+float: left;
+display: inline-block;
+width: 65%;
+}
+
+.homelogo{
+	float: left;
+	padding: .6em 1em;
+	float: left;
+	display: inline-block;
+	width: 15%;
+	margin: 2em;
+}
+
+.paragraph{
+
+color: #19334d;
+text-decoration: italic;
+}
+
+
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+
+#main{
+	float: none;
+	width: 100%;
+}
+#column1,#column2,#column3{
+	float:none;
+	margin: 1% 8%;
+	width: 84%;
+}
+#book{
+	margin: 0 auto;
+	width: 80%;
+	height: 80%;
+}
+
+h1{
+font-size: 1.4em;
+line-height: .9em;
+}
+
+h2{
+font-size: 1.2em;
+line-height: .7em;
+}
+
+h3{
+font-size: .9em;
+line-height: .6em;
+}
+
+p{
+	font-size: .6em;
+	line-height: 1em;
+}
+article,aside{
+	width: 90%;
+	display: inline-block;
+	margin: 2%;
+	float: left;
+	padding: 2%;
+	font-size: .9em;
+	line-height: 1.1em;
+}
+
+.homelogo{
+	float: left;
+	margin:.1em 0 auto;
+	width: 25%;
+}
+.farming_text{
+	margin: 0 auto;
+	width: 60%;
+	padding: 1em;
+	font-size: 1em;
+	line-height: 1.1em;
+	float: left;
+	border: .1em #4d2600 solid;
+}
+.ref_logo{
+	size:50%;
+}
+
+}
+
+
+@media only screen and (max-width: 768px) and (min-width: 320px){
+
+#main{
+	float: none;
+	width: 100%;
+}
+
+#column1,#column2,#column3{
+	float:none;
+	margin: 1% 2% 1% 2%;
+	width: 88%;
+	padding: 2% 3%;
+}
+
+#resume{
+	display: block;
+	margin: 0 auto;
+}
+#book{
+	display: block;
+	margin: 0 auto;
+}
+#document{
+	display: block;
+	margin: 0 auto;
+}
+
+#slogan{
+	font-size: 1.2em;
+}
+h1{
+font-size: 1em;
+line-height: .9em;
+}
+
+
+h2{
+font-size: .9em;
+line-height: .9em;
+}
+
+h3{
+	font-size: 0.9em;
+	line-height: .9em;
+}
+p{
+	font-size: .6em;
+	line-height: 1em;
+}
+
+
+article{
+	width: 100%;
+	margin: 2% auto;
+}
+aside{
+	width: 100%;
+	margin: 2% auto;
+}
+
+.homelogo{
+	display: none;
+}
+.farming_text{
+	margin: .2em auto;
+	width: 80%;
+	padding: 1em;
+	border: .1em #4d2600 solid;
+	font-size: 1em;
+	line-height: 1.2em;
+}
+
+}
+
+
